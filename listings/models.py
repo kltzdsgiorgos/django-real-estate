@@ -10,3 +10,6 @@ class Listing(models.Model):
 	square_footage = models.IntegerField()
 	adress = models.CharField(max_length=100)
 	# image =
+
+	def __str__(self):
+		return self.title
