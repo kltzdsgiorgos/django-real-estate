@@ -1,0 +1,1 @@
+Django project of a real estate website
